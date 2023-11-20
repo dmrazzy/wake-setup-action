@@ -1,0 +1,27 @@
+{
+  "name": "wake-setup-action",
+  "version": "1.0.0",
+  "description": "GitHub action to set up an environment for Wake 🌊️🌊️",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ackee-Blockchain/wake-setup-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ackee-Blockchain/wake-setup-action/issues"
+  },
+  "homepage": "https://github.com/Ackee-Blockchain/wake-setup-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/exec": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}
