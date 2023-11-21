@@ -1,6 +1,9 @@
 # action.yml
 name: 'Wake Setup'
 description: 'Setups an environment for Wake 🌊️🌊️'
+branding:
+  icon: 'package'
+  color: 'purple'
 runs:
   using: 'node20'
   main: 'dist/index.js'
