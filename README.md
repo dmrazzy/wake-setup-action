@@ -1,5 +1,8 @@
 # Wake Setup GitHub Action
 
+![white](https://github.com/Ackee-Blockchain/wake-setup-action/assets/56036748/d3d00a13-e1ce-40f9-a6c7-1dfd11bd4991)
+
+
 A GitHub action to set up an environment on the runner for the usage of Wake in subsequent steps.
 
 ## Usage
